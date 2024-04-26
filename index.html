@@ -28,9 +28,9 @@
                     // Read the light levels in lux 
                     // < 50 is dark room
                     if (sensor.illuminance < 50) {
-                        document.body.className = 'darkLight';
+                        document.body.style.background = "blue"
                     } else {
-                        document.body.className = 'brightLight';
+                        document.body.style.background = "#fff"
                     }
                 }
 
